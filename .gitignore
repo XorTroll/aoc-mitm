@@ -1,0 +1,14 @@
+build/
+.vscode/
+*.nso
+*.npdm
+*.nsp
+*.elf
+*.nacp
+*.ovl
+*.nro
+*.nacp
+bin/
+obj/
+.vs/
+SdOut/
