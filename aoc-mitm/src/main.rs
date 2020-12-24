@@ -43,7 +43,7 @@ pub fn main() -> Result<()> {
     fs::mount_sd_card("sdmc")?;
     mitm::scan_mitms()?;
 
-    let mut manager = Manager::new();
+    let mut manager = Manager::new()?;
     manager.register_mitm_service_server::<aoc::AddOnContentManager>()?;
     manager.loop_process()?;
 
