@@ -1,6 +1,8 @@
 # aoc-mitm
 
-Mitm for aoc:u service, allowing for certain games to insta-unlock DLC
+Mitm PoC for `aoc:u` service, allowing for (certain) games to instantaneously unlock DLC contents!
+
+Only works for games whose DLC behaves like flags whose only purpose is for the game to be aware that DLC contents are purchased, while actual DLC content is included in the base game itself.
 
 ## Usage
 
