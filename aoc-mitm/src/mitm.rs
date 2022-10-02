@@ -1,6 +1,5 @@
 use nx::result::*;
 use nx::sync;
-use nx::diag::log;
 use nx::fs;
 use alloc::vec::Vec;
 use alloc::string::String;

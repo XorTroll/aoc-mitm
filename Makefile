@@ -2,7 +2,7 @@
 .PHONY: all clean
 
 all:
-	@cd aoc-mitm; sprinkle nsp --release
+	@cd aoc-mitm; cargo update; cargo nx build --release
 	@rm -rf $(CURDIR)/SdOut
 	@mkdir -p $(CURDIR)/SdOut/atmosphere/contents/0100000000000523/flags
 	@touch $(CURDIR)/SdOut/atmosphere/contents/0100000000000523/flags/boot2.flag
